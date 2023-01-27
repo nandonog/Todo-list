@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #383a47;
+}
+
+.main-list {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+} 
+
+.to-do-list {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.h1-list {
+    border-bottom: 2px solid #4eb879;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.btn-add-list {
+    background-color: #4eb879;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.btn-add-list:hover {
+    background-color: #23b65e;
+}
+
+.li-list {
+    background-color: #40445F;
+    text-align: start;
+    list-style: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 8px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-list .button-list {
+    background-color: #40445F;
+    color: #fff;
+    padding: 3px 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.li-list .button-list:hover {
+    transform: scale(1.2);
+}
